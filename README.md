@@ -18,7 +18,7 @@ There is a lack of analysis of Amazon product data, especially Amazon India prod
 
  - The data is collected by performing web scraping on Amazon India.
  - Details of 10 products are scraped periodically over the course of a few months.
- - The Web scraper is made using Scrapy python library. A PostgreSQL database is used to store and add to the database. The scraper and database are deployed to Heroku. The database is exported to a `.csv` file. The scraper program is at [this repository](https://github.com/Samyak2/amazon-scraper) (private repository)
+ - The Web scraper is made using Scrapy python library. A PostgreSQL database is used to store and add to the database. The scraper and database are deployed to Heroku. The database is exported to a `.csv` file. The scraper program is at [this repository](https://github.com/Samyak2/amazon-scraper)
  - The dataset consists of 29 columns.
  - As the data is being scraped everyday, it does not have a fixed number of rows. As of 10-10-2019 it has `1217 rows`.
  - Some of the columns of the dataset are:
@@ -48,3 +48,7 @@ There is a lack of analysis of Amazon product data, especially Amazon India prod
      - `weight`: weight of the product. Can be different units hence it's a string.
      - `model`: Model number
      - `category`: List of categories the product falls in, in the form of a string with commas `,` as separator
+     
+## Analysis
+
+ - Check the Jupyter Notebooks
